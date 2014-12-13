@@ -18,3 +18,7 @@ def DA_clean():
     cmd="rm -rf workspace/*"
     os.system(cmd)
     
+def DA_cleanWorkSpace():
+    DA_clean()
+    cmd="rm -rf result/*"
+    os.system(cmd)
