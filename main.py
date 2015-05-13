@@ -169,6 +169,7 @@ def DA_menu():
     print "          -c: clean workspace"
 
 if __name__=="__main__":
+
     if len(sys.argv)==1:
         DA_menu()
     elif (len(sys.argv)==2 and sys.argv[1]=="-a"):
